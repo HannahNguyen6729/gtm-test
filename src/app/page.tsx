@@ -5,12 +5,12 @@ import { useEffect } from "react";
 import { gtmPageView } from "@/lib/gtm";
 
 export default function Home() {
-  useEffect(() => {
+  /*  useEffect(() => {
     const props = {
       page_title: "Home page",
     };
     gtmPageView(props);
-  }, []);
+  }, []); */
 
   return (
     <Template

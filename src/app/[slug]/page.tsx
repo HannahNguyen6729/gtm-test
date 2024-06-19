@@ -10,14 +10,14 @@ export type Params = { params: StaticParams };
 export default function Page({ params }: Params) {
   const slug = params.slug as unknown as string;
 
-  useEffect(() => {
+  /*   useEffect(() => {
     if (slug) {
       const props = {
         page_title: slug,
       };
       gtmPageView(props);
     }
-  }, [slug]);
+  }, [slug]); */
 
   return <Template title={slug} nextPage={{ href: "/", label: "Home" }} />;
 }
