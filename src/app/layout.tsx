@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <GoogleTagManager gtmId="GTM-K5JMP2MK" />
 
-      <head></head>
+      {/*    <head></head>
       <Script id="gtm" strategy="afterInteractive">
         {`
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -39,7 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           style={{ display: "none", visibility: "hidden" }}
         />`,
         }}
-      />
+      /> */}
 
       <body className={inter.className}>{children}</body>
     </html>
